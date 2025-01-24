@@ -7,7 +7,7 @@ def vygeneruj_tajne_cislo():
         cislo = random.sample(range(10), 4)  # Nahodna cisla od 0 do 9, ctyri unikatni cislice
         if cislo[0] != 0:  # Prvni cislice nesmi byt 0
             return ''.join(map(str, cislo))
-
+print("Zadej čtyřmístné číslo, které nezačíná nulou a nemá opakující se číslice."
 def over_vstup(uzivatelsky_vstup):
     """Overi, zda je vstup ctyrmistne cislo s unikatnimi cislicemi a nezacinajici nulou."""
     if len(uzivatelsky_vstup) != 4:
