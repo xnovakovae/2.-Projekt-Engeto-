@@ -30,7 +30,7 @@ def hraj_hru():
     """Hlavni funkce pro spusteni hry Bulls and Cows."""
     print("Ahoj!")
     print("-" * 47)
-    print("Vygeneroval(a) jsem nahodne ctyrmistne cislo pro tebe.")
+    print("Myslim si nahodne ctyrmistne cislo.")
     print("Pojdme si zahrat hru Bulls and Cows.")
     print("-" * 47)
     
