@@ -29,10 +29,10 @@ def vyhodnot_hadanku(tajne_cislo, tip):
 def hraj_hru():
     """Hlavni funkce pro spusteni hry Bulls and Cows."""
     print("Ahoj!")
-    print("-" * 47)
+    print("-" * 40)
     print("Myslim si nahodne ctyrmistne cislo.")
     print("Pojdme si zahrat hru Bulls and Cows.")
-    print("-" * 47)
+    print("-" * 40)
     
     tajne_cislo = vygeneruj_tajne_cislo()
     pocet_pokusu = 0
